@@ -56,8 +56,6 @@ for page in range(start_page, end_page + 1):
 
 csv_file_path = 'output_data.csv'
 
-print(all_names)
-
 with open(csv_file_path, mode='w', newline='', encoding='utf-8-sig') as file:
     writer = csv.writer(file, delimiter=';')
 
